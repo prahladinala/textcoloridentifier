@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Color Identifier</title>
+    <script src="//unpkg.com/brain.js" defer></script>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="prahlad.css">
+
+    <style>
+        #color {
+            height: 200px;
+            border: 2px solid grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #whites {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="color">
+            <div id="whites">White Text</div>
+            <div>Black Text</div>
+            <div id="guess">Guess Text</div>
+        </div>
+        <br />
+        <button id="white-button" class="blue">White</button>
+        <button id="black-button" class="blue">Black</button>
+        <button id="print-button" class="blue">Print</button>
+        <button id="reload-button" class="blue">Reload</button>
+        <br />
+
+        <span id="printer"></span>
+
+    </div>
+
+
+
+</body>
+
+</html>
